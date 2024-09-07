@@ -173,9 +173,11 @@ change(obj1, obj2);
 <br><br>
 
 *`obj1`의 경우
+<br>
 <img width="500" alt="Call by Share-03" src="./Public/weak01/Call by Sharing-03.png">
 
 *`obj2`의 경우
+<br>
 <img width="500" alt="Call by Share-04" src="./Public/weak01/Call by Sharing-04.png">
 - 새로운 객체 메모리 주소로 인해 수정 X
 <br><br>
