@@ -1,3 +1,22 @@
+# 목차
+
+- JavaScript
+  - [EcmaScript와 JavaScript의 차이점은 무엇인가요?](#ecmascript와-javascript의-차이점은-무엇인가요)
+  - [JavaScript의 자료형(타입)에는 어떤 것들이 있나요?](#javascript의-자료형타입에는-어떤-것들이-있나요)
+  - [Document Object Model이란 무엇인가요?](#document-object-model이란-무엇인가요)
+  - [이벤트 위임이란 무엇인가요? 이벤트 캡쳐링과 이벤트 버블링의 차이점은 무엇인가요?](#이벤트-위임이란-무엇인가요-이벤트-캡쳐링과-이벤트-버블링의-차이점은-무엇인가요)
+  - [event.target과 event.currentTarget의 차이점에 대해 설명해보세요.](#eventtarget과eventcurrenttarget의-차이점에-대해-설명해보세요)
+  - [Call by value와 Call by reference의 차이점은 무엇인가요?](#call-by-value와-call-by-reference의-차이점은-무엇인가요)
+- React
+  - [브라우저에 URL을 입력한 순간부터 화면에 웹 페이지가 나타나기까지의 모든 과정을 아는대로 최대한 자세히 설명해보세요.](#브라우저에-url을-입력한-순간부터-화면에-웹-페이지가-나타나기까지의-모든-과정을-아는대로-최대한-자세히-설명해보세요)
+  - [package.json, package-lock.json, node_modules는 무엇인가요?](#packagejsonpackage-lockjsonnode_modules는-무엇인가요)
+  - [Client Side Rendering이란 무엇인가요?](#client-side-rendering이란-무엇인가요)
+  - [Single Page Application이란 무엇인가요?](#single-page-application이란-무엇인가요)
+  - [상태 변화에 대해 React는 어떻게 반응할까요?](#상태-변화에-대해-react는-어떻게-반응할까요)
+  - [리액트의 Strict Mode는 어떤 역할을 하는 것인지 최대한 자세히 설명해보세요.](#리액트의-strict-mode는-어떤-역할을-하는-것인지-최대한-자세히-설명해보세요)
+
+<br>
+
 # JavaScript
 
 ## EcmaScript와 JavaScript의 차이점은 무엇인가요?
@@ -30,8 +49,7 @@
 
 ## event.target과 event.currentTarget의 차이점에 대해 설명해보세요.
 
-> `event.target` 은 이벤트가 실제로 발생한 요소를 가리키고<br/>
-> `event.currentTarget` 은 현재 동작중인 이벤트 핸들러가 부착된 요소를 가리킨다.<br/>
+> `event.target` 은 이벤트가 실제로 발생한 요소를 가리키고<br/> > `event.currentTarget` 은 현재 동작중인 이벤트 핸들러가 부착된 요소를 가리킨다.<br/>
 > 이벤트 버블링 과정에서 `event.target` 이 가리키는 요소는 변하지 않지만<br/> > `event.currentTarget` 이 가리키는 요소는 이벤트가 버블링되면서 부모 요소의 이벤트 핸들러가 실행될 때마다 변경된다.<br/>
 
 <br/>
