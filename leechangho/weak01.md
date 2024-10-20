@@ -161,11 +161,14 @@ b. 함수 선언 후, 호출
 function change(ref1, ref2) {
   ref1.name = "change!";
   ref2 = { name: "changed!"};
-
-  console.log(ref1, ref2);
 }
 
 change(obj1, obj2);
+console.log(ref1, ref2);
+
+//결과: 
+// obj1 = { name: changed!};
+// obj2 = { name: change me plz};
 ```
 <img width="500" alt="Call by Share-02" src="./Public/weak01/Call by Sharing-02.png">
 
